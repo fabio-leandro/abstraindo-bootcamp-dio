@@ -1,0 +1,28 @@
+Atividade (classe abstrata);
+        titulo;
+        descricao;
+        cargaHoraria;
+        calcularXP()
+
+Bootcamp extends Atividade;
+      dataInicial;
+      dataFinal;
+      mentorias;
+      cursos;
+      devs;
+
+Mentorias extends Atividade;
+      dataMentoria;
+
+Cursos extends Atividade;
+
+Devs;
+    nome;
+    mentorias;
+    cursos;
+    inscreverNoBootcamp();
+    progredir();
+    calcularTotalXP();
+    exibirCursos();
+
+
